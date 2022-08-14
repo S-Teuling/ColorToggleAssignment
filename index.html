@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Toggel Assignment</title>
+    <script defer src="/script.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" />
+  </head>
+
+  <body id="body" class="white-background">
+    <header id="main-header">
+      <h1>Color Toggle</h1>
+      <p>Choose a color from the menu</p>
+      <p>or use the keys "1 to 5" on your keyboard</p>
+    </header>
+    <!--<nav id="navigation" onclick="toggleMenu()"></nav>-------------------Used with non-hoverable menu-->
+    <div class="menu">
+      <div class="icon"></div>
+      <ul class="dropDown">
+        <li id="home" class="home">Home</li>
+        <li id="clr-green" class="clr-green">green</li>
+        <li id="clr-yellow" class="clr-yellow">yellow</li>
+        <li id="clr-blue" class="clr-blue">blue</li>
+        <li id="clr-orange" class="clr-orange">orange</li>
+      </ul>
+    </div>
+    <div class="radio-btn-section">
+      <p id="ReturnColor" class="Result"></p>
+      <div class="align-radio-btn">
+        <input type="radio" id="green-btn" name="color" />
+        <label>green</label>
+        <input type="radio" id="yellow-btn" name="color" />
+        <label>yellow</label>
+        <input type="radio" id="blue-btn" name="color" />
+        <label>blue</label>
+        <input type="radio" id="orange-btn" name="color" />
+        <label>orange</label>
+      </div>
+    </div>
+  </body>
+</html>

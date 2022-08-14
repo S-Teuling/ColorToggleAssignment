@@ -1,0 +1,81 @@
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.white-background{
+    background-color: whitesmoke;
+}
+.grey-background{
+    background-color: grey;
+}
+body{
+    font-family:"Oswald";
+    }
+
+#main-header{
+    margin: 10px;
+    background: linear-gradient(90deg, rgb(68, 68, 68) 0%, rgb(216, 215, 215) 50%, rgb(68, 68, 68) 100%);
+    text-align: center;
+    padding: 5px;
+    border-radius: 15px;}
+
+.menu{
+    height: 100px;
+    width: 100px;
+}
+.icon{
+    background-image: url("images/hmbrgr_icon.png");
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    background-size: 100%;
+}
+.dropDown{
+    display: none;
+}
+ul{
+    list-style: none;
+    margin:0;
+    padding: 0;text-align: right;
+    width: 150px;
+    border-style: groove;
+}
+li{
+    height: 50px;
+    border-style: groove;
+}
+.icon:hover{ 
+    cursor: pointer;
+    opacity: 80%;
+    }
+.menu:hover .dropDown{
+    display: block;
+}
+ul li:hover{
+    cursor: pointer;
+    opacity: 70%;
+}
+#home{background: linear-gradient(90deg, rgb(68, 68, 68) 0%, rgba(156,156,156,1) 35%);}
+.clr-green{background-color: green;}
+.clr-yellow{background-color:yellow}
+.clr-blue{background-color: rgb(26, 26, 254)}
+.clr-orange{background-color:orange}
+
+.radio-btn-section{
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    text-align: center;
+    border-style: double;
+    border-radius: 15px;
+}
+.align-radio-btn label{
+    margin-bottom: 5px;
+    padding: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.Result{
+    text-align: center;
+    text-transform: uppercase;
+}
